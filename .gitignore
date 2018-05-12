@@ -1,0 +1,12 @@
+
+# example: ignore everything
+# /*
+
+# example: don't ignore these  (can ignore everything except select directories this way)
+# !/someDirectoryToNotIgnore
+
+# ignore any files and directories with these names
+**/.DS_Store
+**.log
+**/.sass-cache
+**/node_modules
